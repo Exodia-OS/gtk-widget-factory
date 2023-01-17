@@ -64,12 +64,17 @@ Dependencies
   * gtk2 version 2.24
   * gtk3
 
-<!-- Screenshots
+<!-- showcase -->
+
+Screenshots
 -----------
 
-![A widget factory](https://github.com/valr/awf/raw/gh-pages/awf-gtk2.jpg)
+|  |  |
+|--|--|
+| ![](imgs/1.png) | ![](imgs/2.png) |
+| ![](imgs/3.png) | ![](imgs/4.png) |
 
-![A widget factory](https://github.com/valr/awf/raw/gh-pages/awf-gtk3.jpg) -->
+<!-- showcase -->
 
 License
 -------
