@@ -1,4 +1,4 @@
-AWF - A Widget Factory
+GTK Widget Factory
 ======================
 
 Description
@@ -6,13 +6,6 @@ Description
 
 A widget factory is a theme preview application for gtk2 and gtk3.
 It displays the various widget types provided by gtk2/gtk3 in a single window allowing to see the visual effect of the applied theme.
-
-Status
-------
-
-**Warning**: it's quite some time I haven't looked at gtk3 to integrate the latest widgets, and I don't plan to work on this tool anymore.
-AWF was indeed created a long time ago when neither gtk2 nor gtk3 were providing such a tool.  
-As part of gtk3 there is now [gtk3-widget-factory](https://developer.gnome.org/gtk3/stable/gtk3-widget-factory.html) and gtk4 will provide [gtk4-widget-factory](https://developer.gnome.org/gtk4/stable/gtk4-widget-factory.html).
 
 Features
 --------
@@ -28,28 +21,42 @@ Installation
 
   * Ubuntu
 
+    ```bash
     sudo apt-add-repository ppa:flexiondotorg/awf  
     sudo apt update  
     sudo apt install awf
+    ```
 
-  * Archlinux
+  * Archlinux (AUR)
 
-    https://aur.archlinux.org/packages/awf-git/
+    ```bash
+    yay -S awf-git
+    ```
 
   * RPM based distro
 
     There is no pre-built package (yet) but you can generate RPM like this:
-
+    
+    ```bash
     ./autogen.sh  
     ./configure  
     make rpm
+    ```
 
   * From source
 
+    ```bash
     ./autogen.sh  
     ./configure  
     make  
     make install
+    ```
+  
+  * Exodia OS
+
+  ```bash
+  install gtk-widget-factory-git
+  ```
 
 Dependencies
 ------------
@@ -57,12 +64,12 @@ Dependencies
   * gtk2 version 2.24
   * gtk3
 
-Screenshots
+<!-- Screenshots
 -----------
 
 ![A widget factory](https://github.com/valr/awf/raw/gh-pages/awf-gtk2.jpg)
 
-![A widget factory](https://github.com/valr/awf/raw/gh-pages/awf-gtk3.jpg)
+![A widget factory](https://github.com/valr/awf/raw/gh-pages/awf-gtk3.jpg) -->
 
 License
 -------
